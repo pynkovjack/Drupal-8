@@ -1,0 +1,9 @@
+uuid: 445a075b-9a67-4ef0-aa25-a28713608842
+langcode: en
+status: true
+dependencies: {  }
+name: RAM
+vid: ram
+description: 'This field shows how much RAM does smartpone have'
+hierarchy: 0
+weight: 0

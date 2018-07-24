@@ -1,0 +1,6 @@
+name: Модуль Жени
+description: 'Телефон HelloWorld module - is my first module!'
+type: module
+core: 8.x
+version: 1.0
+package: Custom

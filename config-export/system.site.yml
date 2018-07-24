@@ -1,0 +1,14 @@
+uuid: bd0d4a01-ef86-44a6-a6f9-41ba71aa2ff1
+name: 'My web site'
+mail: site@test.com
+slogan: ''
+page:
+  403: ''
+  404: ''
+  front: /node
+admin_compact_mode: false
+weight_select_max: 100
+langcode: en
+default_langcode: en
+_core:
+  default_config_hash: yXadRE77Va-G6dxhd2kPYapAvbnSvTF6hO4oXiOEynI

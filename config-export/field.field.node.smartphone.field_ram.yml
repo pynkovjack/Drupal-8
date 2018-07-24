@@ -1,0 +1,29 @@
+uuid: 8e21be6a-f5f9-403b-9409-af8193e1d377
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_ram
+    - node.type.smartphone
+    - taxonomy.vocabulary.ram
+id: node.smartphone.field_ram
+field_name: field_ram
+entity_type: node
+bundle: smartphone
+label: RAM
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      ram: ram
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

@@ -1,0 +1,28 @@
+uuid: 47657217-d9ab-49fb-9ad4-829e36e79f29
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.smartphone.body
+    - node.type.smartphone
+  module:
+    - text
+    - user
+id: node.smartphone.teaser
+targetEntityType: node
+bundle: smartphone
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+hidden: {  }

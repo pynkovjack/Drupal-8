@@ -1,0 +1,6 @@
+mobilemod.hellopage:
+  path: '/mobile'
+  defaults:
+    _controller: '\Drupal\mobilemod\Controller\MobileController::helloWorld'
+  requirements:
+    _permission: 'view content'

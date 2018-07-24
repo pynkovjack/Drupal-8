@@ -1,0 +1,29 @@
+uuid: c7249791-d95b-43ee-8853-d75d6150936a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_memory
+    - node.type.smartphone
+    - taxonomy.vocabulary.memory
+id: node.smartphone.field_memory
+field_name: field_memory
+entity_type: node
+bundle: smartphone
+label: Memory
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      memory: memory
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference
